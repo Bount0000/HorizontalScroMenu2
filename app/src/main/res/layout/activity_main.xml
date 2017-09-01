@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.lenovo.horizontalscromenu2.MainActivity">
+    <LinearLayout
+        android:background="#FF4444"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+           <ImageView
+            android:id="@+id/iv_1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+           android:src="@drawable/icon"
+            />
+     <TextView
+      android:layout_marginLeft="50dp"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+      android:gravity="center"
+      android:textColor="#ffff"
+      android:textSize="30dp"
+       android:text="今日头条"
+    />
+        <ImageView
+            android:layout_marginLeft="70dp"
+            android:id="@+id/iv_2"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/more"
+            />
+    </LinearLayout>
+    <com.example.lenovo.horizontalscromenu2.view.HorizontalTabhost
+        android:id="@+id/tabhost"
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp" />
+
+
+</LinearLayout>
