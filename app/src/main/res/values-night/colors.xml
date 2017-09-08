@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="title_color">#FF4444</color>
+    <color name="text_ziti">#2A2A2A</color>
+    <color name="left_frag">#505050</color>
+    <color name="left_frag_ziti">#454545</color>
+    <color name="left_frag_ziti2">#9F9F9F</color>
+    <color name="left_frag_ziti3">#5B5B5B</color>
+    <color name="left_frag_ziti4">#C5C5C5</color>
+    <color name="toutiao">#20999999</color>
+    <color name="right_frag_ziti">#363636</color>
+    <color name="right_frag_zitixiao">#ACACAC</color>
+    <color name="user">#015B99</color>
+</resources>
